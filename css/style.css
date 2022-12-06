@@ -1,0 +1,63 @@
+* {margin: 0; padding: 0;}
+ul {list-style: none;}
+a {text-decoration: none; color: black;}
+
+#top {height: 800px; background: url(../images/sub3_bg.png) no-repeat center top; background-size: cover;}
+.top_inner {width: 1320px; margin: 0 auto; box-sizing: border-box; position: relative;}
+.logo_top {width: 140px; height: 60px; position: absolute; top: 20px; left: 590px;}
+.nav {position: absolute; top: 105px; left: 50%; margin-left: -285px;}
+.nav>li {float: left;}
+.nav>li:nth-child(1) {margin-right: 95px;}
+.nav>li:nth-child(2) {margin-right: 95px;}
+.nav>li:nth-child(3) {margin-right: 95px;}
+.nav>li>a {display: block; font-size: 20px; font-family: 'Arial'; font-weight: bold; color: white;}
+.nav>li>a:hover {color: #aaa;}
+.login {position: absolute; top: 15px; right: 20px;}
+.login>li {float: left; margin-left: 20px;}
+.login>li>a {display: block; font-size: 16px; font-family: 'Arial'; color: white;}
+.login>li>a:hover {color: #aaa;}
+
+#banner {height: 300px; box-sizing: border-box; background: url(../images/banner.jpg) no-repeat -1500px -1000px; background-attachment: fixed; text-align: center;}
+#banner p {font-family: 'Arial'; font-weight: bold; font-size: 30px; color: white; padding-top: 145px;}
+
+#cont {height: 2000px;}
+.cont_inner {width: 1320px; margin: 0 auto; box-sizing: border-box; position: relative; padding-top: 150px;}
+.box1 {width: 1320px; height: 60px; background-color: black; font-family: 'Noto Sans KR'; font-size: 20px; color: white;}
+.box1 p {padding: 15px 0 0 20px;}
+.box2 {width: 1320px; height: 60px; background-color: black; font-family: 'Noto Sans KR'; font-size: 20px; color: white; position: absolute; top: 1300px; left: 0;}
+.box2 p {padding: 15px 0 0 20px;}
+
+.event1 {width: 315px; height: 430px; box-sizing: border-box; text-align: center; font-family: 'Noto Sans KR'; font-size: 12px; position: absolute; top: 310px; left: 0;}
+.img_top {position: relative;}
+.img_hover {position: absolute; top: 0; left: 0; opacity: 0;}
+.img_top a:hover .img_hover {opacity: 1; transition: all 1s;}
+.event2 {width: 315px; height: 430px; box-sizing: border-box; text-align: center; font-family: 'Noto Sans KR'; font-size: 12px; position: absolute; top: 310px; left: 335px;}
+.event3 {width: 315px; height: 430px; box-sizing: border-box; text-align: center; font-family: 'Noto Sans KR'; font-size: 12px; position: absolute; top: 310px; right: 335px;}
+.event4 {width: 315px; height: 430px; box-sizing: border-box; text-align: center; font-family: 'Noto Sans KR'; font-size: 12px; position: absolute; top: 310px; right: 0;}
+.event5 {width: 315px; height: 430px; box-sizing: border-box; text-align: center; font-family: 'Noto Sans KR'; font-size: 12px; position: absolute; top: 770px; left: 0;}
+.event6 {width: 315px; height: 430px; box-sizing: border-box; text-align: center; font-family: 'Noto Sans KR'; font-size: 12px; position: absolute; top: 770px; left: 335px;}
+.event7 {width: 315px; height: 430px; box-sizing: border-box; text-align: center; font-family: 'Noto Sans KR'; font-size: 12px; position: absolute; top: 1460px; left: 0;}
+.event8 {width: 315px; height: 430px; box-sizing: border-box; text-align: center; font-family: 'Noto Sans KR'; font-size: 12px; position: absolute; top: 1460px; left: 335px;}
+.event9 {width: 315px; height: 430px; box-sizing: border-box; text-align: center; font-family: 'Noto Sans KR'; font-size: 12px; position: absolute; top: 1460px; right: 335px;}
+.title {font-family: 'Noto Sans KR'; font-size: 14px; margin: 10px 0; font-weight: bold;}
+
+#footer {height: 250px; background-color: black;}
+.footer_inner {width: 1320px; margin: 0 auto; box-sizing: border-box; position: relative;}
+.footer_text {font-family: '맑은고딕'; font-size: 13px; position: absolute; top: 30px; left: 0; color: white; line-height: 25px;}
+.footer_ul {position: absolute; top: 30px; right: 0px;}
+.footer_ul li {float: left;}
+.footer_ul li img {width: 50px; height: 50px;}
+.footer_ul li a {display: block; margin-left: 15px; opacity: 0.3;}
+.footer_ul li a:hover {opacity: 1.0;}
+.logo_footer {width: 140px; height: 60px; box-sizing: border-box; position: absolute; right: 0; top: 150px;}
+
+.gotop {width: 70px; height: 140px; box-sizing: border-box; position: fixed; bottom: 30px; right: 40px;}
+.gotop:hover {transform: rotate(20deg); transition: 0.3s ease-in;}
+
+.log_box {width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); position: fixed; top: 0; left: 0; display: none;}
+.log {width: 300px; height: 180px; box-sizing: border-box; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-family: 'Noto Sans KR'; font-size: 14px; background-color: white;}   
+.sign_box {width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); position: fixed; top: 0; left: 0; display: none;}
+.sign {width: 300px; height: 180px; box-sizing: border-box; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-family: 'Noto Sans KR'; font-size: 14px; background-color: white;}
+.id {width: 250px; margin-top: 15px; box-sizing: border-box; padding: 2px 5px;}
+.submit_btn {display: inline-block; margin: 15px 0 30px 0; padding: 3px 10px; background-color: #333; color: white;}
+.close {color: #333; text-decoration: underline; margin-left: 230px;}
